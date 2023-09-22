@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'soffets';
+    src:  url('../font/soffets.eot');
+    src:  url('../font/soffets.eot') format('embedded-opentype'),
+      url('../font/soffets.ttf') format('truetype'),
+      url('../font/soffets.woff') format('woff'),
+      url('../font/soffets.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'soffets' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .icon-arrow-right:before {
+    content: "\e909";
+  }
+  .icon-download:before {
+    content: "\e907";
+  }
+  .icon-check:before {
+    content: "\e908";
+  }
+  .icon-pen-holder:before {
+    content: "\e904";
+  }
+  .icon-play_controls_button_circle_media_icon:before {
+    content: "\e903";
+  }
+  .icon-email:before {
+    content: "\e905";
+  }
+  .icon-telephone-call:before {
+    content: "\e906";
+  }
+  .icon-instagram-brands:before {
+    content: "\e902";
+  }
+  .icon-phone-call:before {
+    content: "\e900";
+  }
+  .icon-search-2:before {
+    content: "\e901";
+  }
